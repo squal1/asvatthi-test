@@ -2,6 +2,14 @@ def add(x, y):
     return x + y
 
 
+def foo(a, b):
+    return None
+
+
+# def commentedFunc(x,y,z):
+#     return None
+
+
 class Car:
     def __init__(self, make, model, year, color):
         self.make = make
@@ -23,3 +31,11 @@ class Car:
             print(f"The {self.color} {self.make} {self.model} stops.")
         else:
             print("The car is already stopped.")
+
+
+# class CommentedClass:
+#     def __init__(self, comment):
+#         self.comment = comment
+
+#     def bar(self):
+#         return self.comment
